@@ -1,0 +1,13 @@
+body {
+    background: lightblue;
+    font-family: Arial, Calibri, sans-serif;
+    font-size: 12pt;
+}
+
+a {
+    color: #ff0000;
+}
+
+.cool-link {
+    color: hotpink;
+}

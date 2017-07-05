@@ -1,0 +1,8 @@
+<!doctype html>
+<title>Hello, Flask</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+<div class="page">
+  <a href="https://www.google.com">Go to Google</a>
+  <br>
+  {% block body %}{% endblock %}
+</div>
