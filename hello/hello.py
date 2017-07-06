@@ -1,5 +1,4 @@
-from flask import Flask, request, session, url_for, redirect, \
-     render_template, abort, g, flash
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
